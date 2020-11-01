@@ -1,0 +1,101 @@
+/* LINK IMPORT GOOGLE FONT POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+  * {
+
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    margin-left: 10rem;
+    margin-right: 10rem;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.navbar{
+    background-color: black!important;
+    height: 6rem;
+}
+
+/* BLOC FOOTER*/
+
+.footermain {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 100vh;
+    background-color: black!important;
+    height: 5rem;
+}
+
+
+
+.footer-copyright {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+}
+a{color: white;}
+a:hover {
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+/* FIN BLOC FOOTER*/
+
+/* TABLEAUX SALARIER */
+
+thead{
+    background-color: black;
+    font-size: 1rem;
+
+}
+th {
+
+    height: 50px;
+    padding-left: 10px;
+}
+
+img {
+
+    border-radius: 200px 200px 200px 200px;
+}
+
+
+form {
+
+    border: solid 1px rgba(82, 80, 80, 0.57);
+    box-shadow: 11px 10px 7px -6px rgba(5,5,5,0.57);
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    width: 58rem;
+}
+
+
+
+
+.upload {
+
+width: 20rem;
+
+}
+
+.form-group {
+
+    width: 35rem;
+}
+.custom-file{
+
+    right: 1rem;
+}
+
+

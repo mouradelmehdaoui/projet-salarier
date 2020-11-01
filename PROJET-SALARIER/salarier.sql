@@ -1,0 +1,18 @@
+DROP DATABASE IF EXISTS DB_SALARIER;
+
+CREATE DATABASE DB_SALARIER;
+
+USE DB_SALARIER;
+
+CREATE TABLE Salarier (
+    ID_salarier INT(5) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    Prenom VARCHAR(30),
+    Date_de_Naissance date,
+    Email VARCHAR(150),
+    Salaire VARCHAR(100),
+    file_url VARCHAR(255),
+    status VARCHAR(255)
+    
+)ENGINE=InnoDB;
+
+
